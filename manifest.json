@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Google Classroom LinkHub",
+    "description": "All links of Google Meet, Google Classroom one place _abx",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "assets/js/script.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "icons": {
+        "192": "assets/images/gcricon.png"
+    },
+    "browser_action": {
+        "default_icon": "assets/images/gcricon.png",
+        "default_popup": "index.html"
+    }
+}

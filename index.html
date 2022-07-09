@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCR LinkHub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="gcrlogo">
+        </div>
+        <div class="headingtext">
+            Google Classroom <br> LinkHub
+        </div>
+        <div class="inputsection">
+            <input type="text" id="inputteacher" class="input" placeholder="Enter Teacher name">
+            <input type="text" id="inputclass" class="input" placeholder="Enter Class name">
+            <input type="text" id="inputmeet" class="input" type="url" placeholder="Enter Meet link">
+            <input type="text" id="inputgcr" class="input" type="url" placeholder="Enter Gcr link">
+            <!-- <button id="addbtn">add</button> -->
+        </div>
+        <div class="plusicon" id="addbtn" data-toggle="tooltip" title="Add" data-placement="bottom"></div>
+        <div class="selectsection">
+            <select name="teachers" id="teachers" class="selection">
+            </select>
+            <select name="classes" id="classes" class="selection">
+            </select>
+
+            <button id="meetbtn" class="selection">Meet</button>
+            <button id="gcrbtn" class="selection">Google Classroom</button>
+            <!-- <button id="delbtn" class="selection">delete</button> -->
+        </div>
+        <div id="delbtn" data-toggle="tooltip" title="Delete Selected" data-placement="bottom"></div>
+
+    </div>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+body{
+    margin: 0 0;
+}
+#teachers,#classes,#meetbtn,#gcrbtn{ 
+    width: 179.5px;
+    height: 29px;
+    font-family: 'Questrial', sans-serif;
+}
+.input{
+    width: 171px;
+    height: 25px;
+    border: 2px solid black;
+    font-family: 'Questrial', sans-serif;
+    margin: 6px 5px;
+    font-size: 16px;
+}
+.container{
+    width: 529px;
+    height: 370px;
+    background-color: rgb(197, 197, 197);
+    border: 2px solid black;
+    position: relative;
+}
+.gcrlogo{
+    top: 5px;
+    left: 20px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/gcricon.png);
+    width: 109px;
+    height: 103px;
+}
+
+.headingtext{
+    left: 163px;
+    top: 20px;
+    position: absolute;
+    font-size: 41px;
+    font-weight: 600;
+    font-family: 'Questrial', sans-serif;
+}
+.inputsection{
+    left: 25px;
+    top: 130px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.selection{
+    width:150px; 
+    height:20px;
+    border : 2px solid black;
+    font-family: 'Questrial', sans-serif;
+    margin: 5px 5px;
+
+}
+.plusicon{
+    top: 167px;
+    left: 410px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/plusicon.png);
+    width: 45px;
+    height: 45px;
+}
+.plusicon:hover{
+    opacity: 0.5;
+}
+.selectsection{
+    left: 25px;
+    top: 230px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#delbtn{
+    top: 266px;
+    left: 412px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(../images/minusicon.png);
+    width: 39px;
+    height: 39px;
+}
+#delbtn:hover{
+    opacity: 0.5;
+}
+#meetbtn{
+    background-color: #6EB37D;
+}
+
+#gcrbtn{
+    background-color: #FEBF10;
+}
+#gcrbtn:hover{
+    opacity: 0.75;
+}
+#meetbtn:hover{
+    opacity: 0.75;
+}
